@@ -9,8 +9,9 @@
 header {
   display: flex;
   justify-content: space-between;
-  background-color: black;
-  color: white;
+  background-color: rgb(238, 230, 217);
+  font-family: monospace, bold;
+  color: rgb(142, 103, 46);
   grid-column: 1 / span 2;
   padding: 10px 5px;
 }
@@ -22,6 +23,19 @@ form {
   align-items: flex-start;
 }
 
+button {
+  background-color: rgb(142, 103, 46);
+  color: rgb(238, 230, 217);
+  border: none;
+  border-color: rgb(142, 103, 46);
+  font-family: monospace;
+  border-width: 1px;
+  padding: 5px;
+  font-size: 12px;
+  text-align: center;
+  border-radius:10px;
+}
+
 form input,
 form textarea {
   margin-bottom: 10px;
@@ -31,11 +45,20 @@ form textarea {
 nav,
 article {
   height: 100%;
-  padding: 10px;
+  padding: 20px;
+  padding-top: 10px;
+  font-size: 15px;
+  font-family: monospace;
 }
 
 nav {
-  background-color: #dee9ff;
+  background-image: linear-gradient(
+    orange,
+    yellow,
+    pink,
+    white
+  );
+  
 }
 
 nav p:hover {

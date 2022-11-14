@@ -1,7 +1,3 @@
-# A Blog Starter App
+# We All Scream For Ice Cream
 
-This is a trivial blog app, started with create-react-app.
-
-It works entirely within memory, so reloads blow everything away except for the first two mock articles.
-
-This repo is designed for you to fork and extend with (1) better CSS and (2) a real back end, with authentication and a database.
+Our blog app gives readers information about ice cream! Many ice cream related topics can be found on it. We made the color scheme match the ice cream vibe. 
